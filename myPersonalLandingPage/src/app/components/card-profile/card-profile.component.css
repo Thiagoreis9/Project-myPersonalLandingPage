@@ -1,0 +1,33 @@
+.cardProfile__content{
+  width: 348px;
+  height: 292px;
+  background-color: #302F3D;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 3px 3px 10px #000000;
+  margin: 20px;
+
+}
+
+.cardProfile__content__photo img{
+  width: 128px;
+  border: solid 2px #00FF00;
+  border-radius: 100%;
+}
+
+.cardProfile__content__name{
+  font-size: 12px;
+  color: #837E9F;
+  text-align: center;
+
+}
+.cardProfile__content__name h1{
+  font-size: 23px;
+}
+
+.cardProfile__content__name p{
+  padding: 10px;
+}

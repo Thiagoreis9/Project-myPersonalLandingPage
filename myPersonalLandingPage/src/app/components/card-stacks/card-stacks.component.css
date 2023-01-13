@@ -1,0 +1,41 @@
+.cardStacks__content{
+  width: 348px;
+  height: 208px;
+  background-color: #302F3D;
+  border-radius: 20px;
+  box-shadow: 3px 3px 10px #000000;
+  margin: 20px;
+  color: #837E9F;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+
+}
+
+.cardStacks__content__title{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.cardStacks__content__stacks ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 20px;
+
+
+}
+.cardStacks__content__stacks li{
+  list-style: none;
+  width: 80px;
+  padding: 4px 0px;
+  border-radius: 20px;
+  background-color: #CB92B1;
+  color: #000000;
+  margin: 10px;
+  text-align: center;
+  font-size: 10px;
+  font-weight: bolder;
+}
