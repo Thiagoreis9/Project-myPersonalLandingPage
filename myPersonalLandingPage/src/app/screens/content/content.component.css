@@ -1,4 +1,5 @@
 .content__container{
   padding: 5px 10px;
   background-color: #22212C;
+  display: flex;
 }

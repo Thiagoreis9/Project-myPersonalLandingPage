@@ -7,6 +7,7 @@ import { CardProfileComponent } from './components/card-profile/card-profile.com
 import { ContentComponent } from './screens/content/content.component';
 import { CardInformationsComponent } from './components/card-informations/card-informations.component';
 import { CardStacksComponent } from './components/card-stacks/card-stacks.component';
+import { CertificationsComponent } from './components/certifications/certifications.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { CardStacksComponent } from './components/card-stacks/card-stacks.compon
     CardProfileComponent,
     ContentComponent,
     CardInformationsComponent,
-    CardStacksComponent
+    CardStacksComponent,
+    CertificationsComponent
   ],
   imports: [
     BrowserModule,

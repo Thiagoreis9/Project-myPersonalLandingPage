@@ -39,3 +39,8 @@
   padding-top: 5px;
 }
 
+.cardInformations__content__infos li :hover{
+
+  color: antiquewhite;
+
+}

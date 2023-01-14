@@ -1,0 +1,20 @@
+.certifications__content{
+    width: 75vw;
+    height: 292px;
+    margin: 20px;
+    color: #837E9F;
+}
+
+.certifications__content__title{
+    width: 73vw;
+    height: 80px;
+    background-color: #302F3D;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px #000000;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    
+  }
