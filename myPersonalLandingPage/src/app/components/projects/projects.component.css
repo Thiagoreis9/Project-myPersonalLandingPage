@@ -1,55 +1,58 @@
-.certifications__content{
+.projects__content{
     width: 100%;
+    height: 292px;
     margin: 20px;
     color: #837E9F;
-
 }
 
-.certifications__content__certifications:hover{
+.projects__content__projects:hover{
     position: relative;
     bottom: 5px;
 }
 
-.certifications__content a{
+.projects__content a{
     text-decoration: none;
 }
 
-.certifications__content__title{
+.projects__content__title{
     width: 91.5%;
     height: 80px;
+    margin: 20px 20px 10px 20px;
     background-color: #302F3D;
     border-radius: 20px;
     box-shadow: 3px 3px 10px #000000;
     padding: 0px 20px;
-    margin: 20px 0px 10px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 14px;
 }
 
-.certifications__content__certifications__content{
+.projects__content__projects__content{
     display: flex;
+    flex-wrap: wrap;
 }
 
-.certifications__content__certifications h1{
-    font-size: 26px;
+.projects__content__projects h1{
+    font-size: 111px;
 }
 
-.certifications__content__certifications{
+.projects__content__projects{
     height: 247px;
     min-width: 650px;
     width: 650px;
-    margin: 10px 20px;
+    margin: 20px;
     padding: 10px;
     color: #837E9F;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
     background-color: #302F3D;
     border-radius: 20px;
     box-shadow: 3px 3px 10px #000000;    
 }
 
-.certifications__content__certifications__infos{
+.projects__content__projects__infos{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -57,21 +60,22 @@
     margin: 0 auto;
 }
 
-.certifications__content__certifications__photo img{
+.projects__content__projects__photo img{
     width: 350px;
+    height: 245px;
     border-radius: 20px;
 }
 
-.certifications__content__certifications__photo{
+.projects__content__projects__photo{
     margin-right: 10px;    
 }
 
-.certifications__content__certifications__infos__techs ul{
+.projects__content__projects__infos__techs ul{
     display: flex;
     flex-wrap: wrap;
 }
 
-.certifications__content__certifications__infos__techs li{
+.projects__content__projects__infos__techs li{
     list-style: none;
     width: 80px;
     padding: 4px 0px;
@@ -82,4 +86,17 @@
     text-align: center;
     font-size: 10px;
     font-weight: bolder;
+}
+
+.projects__content__projects__infos__title{
+    display: flex;
+}
+.projects__content__projects__infos__title h1{
+    padding-left: 10px;
+    font-size: 18px;
+    
+}
+.projects__content__projects__infos__title img{
+    height: 22px;
+    padding-top: 5px;
 }

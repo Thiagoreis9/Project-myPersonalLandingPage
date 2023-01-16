@@ -8,6 +8,7 @@ import { ContentComponent } from './screens/content/content.component';
 import { CardInformationsComponent } from './components/card-informations/card-informations.component';
 import { CardStacksComponent } from './components/card-stacks/card-stacks.component';
 import { CertificationsComponent } from './components/certifications/certifications.component';
+import { ProjectsComponent } from './components/projects/projects.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CertificationsComponent } from './components/certifications/certificati
     ContentComponent,
     CardInformationsComponent,
     CardStacksComponent,
-    CertificationsComponent
+    CertificationsComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,

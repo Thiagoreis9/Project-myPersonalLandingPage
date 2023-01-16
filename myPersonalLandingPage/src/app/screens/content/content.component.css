@@ -1,5 +1,11 @@
 .content__container{
   padding: 5px 10px;
-  background-color: #22212C;
   display: flex;
+}
+.content__container__sidePage{
+  position: fixed;
+}
+.content__container__otherSidePage{
+  position: absolute;
+  left: 400px;
 }
