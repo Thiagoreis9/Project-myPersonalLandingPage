@@ -4,8 +4,31 @@
 }
 .content__container__sidePage{
   position: fixed;
+  animation: moveToRight 2s ease-in-out;
 }
 .content__container__otherSidePage{
   position: absolute;
   left: 400px;
+  animation: moveToLeft 2s ease-in-out;
+}
+
+@keyframes moveToLeft {
+  0% {
+    transform: translateX(1400px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 10;
+  }
+}
+@keyframes moveToRight {
+  0% {
+    transform: translateX(-400px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 10;
+  }
 }

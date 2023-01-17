@@ -15,6 +15,7 @@
   width: 128px;
   border: solid 2px #00FF00;
   border-radius: 100%;
+  cursor: pointer;
 }
 
 .cardProfile__content__name{

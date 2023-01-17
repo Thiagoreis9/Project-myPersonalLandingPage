@@ -49,7 +49,7 @@
     justify-content: center;
     background-color: #302F3D;
     border-radius: 20px;
-    box-shadow: 3px 3px 10px #000000;    
+    box-shadow: 3px 3px 10px #000000;
 }
 
 .projects__content__projects__infos{
@@ -67,7 +67,7 @@
 }
 
 .projects__content__projects__photo{
-    margin-right: 10px;    
+    margin-right: 10px;
 }
 
 .projects__content__projects__infos__techs ul{
@@ -94,7 +94,7 @@
 .projects__content__projects__infos__title h1{
     padding-left: 10px;
     font-size: 18px;
-    
+
 }
 .projects__content__projects__infos__title img{
     height: 22px;
