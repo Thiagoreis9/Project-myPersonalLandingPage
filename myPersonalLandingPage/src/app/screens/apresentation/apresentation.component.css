@@ -1,0 +1,68 @@
+.apresentation__content__info{
+  position: absolute;
+  font-size: 32px;
+  text-shadow: 3px 3px 2px black;
+  width:50%;
+  left: 10%;
+	top: 27.5%;
+  margin: 0px;
+  padding: 0px;
+  animation: moveToLeft 2s ease-in-out;
+  animation-delay: 2000ms;
+}
+
+.apresentation__content{
+  display: flex;
+  width: 100%;
+  color: aliceblue;
+  border: -10px solid red;
+}
+
+.bg_video{
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	background-size: contain;
+  filter: blur(9px);
+  padding-bottom: 20px;
+}
+
+.apresentation__content__image{
+  position: absolute;
+  left: 60%;
+	top: 17.5%;
+  margin: 0px;
+  padding: 0px;
+  background-image: url(../../../assets/shape-gradient.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation: moveToRight 2s ease-in-out;
+  animation-delay: 2000ms;
+}
+.apresentation__content__image img{
+  width: 720px;
+
+}
+@keyframes moveToLeft {
+  0% {
+    transform: translateX(-1400px);
+    display: block;
+  }
+  100% {
+    transform: translateX(0px);
+    display: block;
+  }
+}
+@keyframes moveToRight {
+  0% {
+    transform: translateX(800px);
+
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
