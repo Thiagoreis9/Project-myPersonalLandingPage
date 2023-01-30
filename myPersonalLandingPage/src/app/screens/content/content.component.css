@@ -7,8 +7,8 @@
   animation: moveToRight 2s ease-in-out;
 }
 .content__container__otherSidePage{
-  position: absolute;
-  left: 400px;
+
+  margin-left: 380px;
   animation: moveToLeft 2s ease-in-out;
 }
 

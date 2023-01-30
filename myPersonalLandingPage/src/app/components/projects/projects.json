@@ -1,0 +1,26 @@
+{
+  "project":[
+    {
+      "id":1,
+      "name": "Project-RyuNews",
+      "photo": "../../../assets/ryunews.png",
+      "description": "RyuNews is a functional blog web application, developed using Angular and using the tools that the framework itself offers.",
+      "techs":[
+        "java",
+        "html",
+        "css"
+      ]
+    },
+    {
+      "id":2,
+      "name": "Project-RyutechComputers",
+      "photo": "../../../assets/ryutech",
+      "description": "This repository aims to document the website developed with Angular throughout the Capgemini Start Program training Angular module.",
+      "techs":[
+        "java",
+        "html",
+        "css"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+<a href="{{ repository }}" target="_blank" >
+  <div class="projects__content__projects">
+    <div class="projects__content__projects__photo">
+        <img src="{{ photo }}" alt="Project photo">
+    </div>
+    <div class="projects__content__projects__infos">
+        <div class="projects__content__projects__infos__title">
+            <img src="../../../assets/pasta.png" alt="">
+            <h1>{{ name }}</h1>
+        </div>
+        <p>{{ description }}</p>
+        <div class="projects__content__projects__infos__techs">
+            <ul>
+                <li *ngFor="let tech of techs">
+                  {{ tech }}
+                </li>
+            </ul>
+        </div>
+    </div>
+
+  </div>
+</a>

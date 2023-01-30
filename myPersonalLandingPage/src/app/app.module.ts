@@ -10,6 +10,7 @@ import { CardStacksComponent } from './components/card-stacks/card-stacks.compon
 import { CertificationsComponent } from './components/certifications/certifications.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { ApresentationComponent } from './screens/apresentation/apresentation.component';
+import { CardProjectComponent } from './components/card-project/card-project.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ApresentationComponent } from './screens/apresentation/apresentation.co
     CardStacksComponent,
     CertificationsComponent,
     ProjectsComponent,
-    ApresentationComponent
+    ApresentationComponent,
+    CardProjectComponent
   ],
   imports: [
     BrowserModule,
